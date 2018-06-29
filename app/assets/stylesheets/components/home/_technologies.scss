@@ -1,5 +1,5 @@
 .technologies-section {
-	margin-top: 60px;
+	margin-top: 100px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -37,20 +37,19 @@
 }
 
 .technologies-horizontal-wrapper {
-	display: flex;
-	justify-content: space-between;
-	background-color: gray;
-	width: 100%;
+	
+	// background-color: gray;
+	
 	.technology-wrapper {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		// width: 25%;
+		padding: 0px 5px;
 		.logo {
 			display: flex;
 			justify-content: center;
 			align-items: center;
-			background-color: rgb(220,220,200);
+			// background-color: rgb(220,220,200);
 			width: 80px;
 			height: 80px;
 		}
@@ -60,11 +59,14 @@
 		}
 		.description-wrapper {
 			.title {
-				background-color: orange;
+				text-align: center;
+				// background-color: orange;
+				margin: 12px 0px 6px 0px;
 			}
 			.text {
-				background-color: pink;
+				// background-color: pink;
 				font-size: 14px;
+				text-align: justify;
 			}
 		}
 	}
