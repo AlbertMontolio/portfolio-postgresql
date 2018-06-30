@@ -1,0 +1,38 @@
+.title-wrapper {
+	width: 100vw;
+	max-width: 1200px;
+	// padding: 0px 60px;
+	border-bottom: 1px solid rgb(200,200,200);
+	height: 21px;
+	position: relative;
+	// background-color: pink;
+	display: flex;
+	justify-content: center;
+	// margin-bottom: 70px;
+	.title {
+		padding: 0px 20px;
+		// background-color: white;
+		height: 42px;
+		font-size: 30px;
+		font-weight: bold;
+		.highlighted-wrapper {
+			background-color: transparent;
+			position: relative;
+			z-index: 4;
+			.highlighted {
+				position: absolute;
+				top: 22px;
+				left: -2px;
+				right: 0px;
+				height: 14px;
+				
+				z-index: -4;
+			}
+			// .highlighted.high-green { background-color: $green; }
+			.highlighted.high-green { background-color: #D23333; }
+		}
+	}
+}
+
+
+
