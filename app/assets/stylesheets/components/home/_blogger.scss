@@ -1,0 +1,54 @@
+.blogger-section {
+	margin-top: 200px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	.blogger-content {
+		max-width: 1200px;
+		width: 100vw;
+		.blogger-title {
+			text-align: center;
+		}
+	}
+}
+
+.blogs {
+	margin-top: 60px;
+}
+
+// ### responsive for big screens missing
+.blog {
+
+	display: flex;
+	.pic-blog {
+		width: 90px;
+		height: 90px;
+	}
+	.description {
+		padding-left: 10px;
+		.title {
+			font-size: 14px;
+			font-weight: 700;
+			line-height: 1.3;
+		}
+		.views {
+			font-size: 12px;
+			margin-top: 20px;
+		}
+		.descr-footer {
+			margin-top: 6px;
+			display: flex;
+			align-items: center;
+			color: rgb(150,150,150);
+			font-size: 12px;
+			i {
+				font-size: 10px;
+				margin-left: 10px;
+			}
+			.time {
+				margin-left: 10px;
+			}
+		}
+	}
+	
+}
