@@ -26,8 +26,6 @@ const showCurriculum = () => {
 	const webpageWrapper = document.querySelector(".webpage-wrapper");
 	const startPositionWrapper = document.querySelector(".start-position-wrapper");
 
-
-
 	setTimeout(() => {
 		dynamicTextWrapper.classList.add("my-hide");
 	}, 10000);
