@@ -1,0 +1,23 @@
+.footer-section {
+	background-color: #373a36;
+	display: flex;
+	justify-content: center;
+	color: rgb(200,200,200);
+	padding: 50px;
+	font-size: 18px;
+	.footer-content {
+		display: flex;
+		align-items: center;
+		flex-wrap: wrap;
+		justify-content: center;
+		.social-media {
+			i {
+				margin: 0px 5px;
+			}
+		}
+		.made-by {
+			// margin-left: 40px;
+			text-align: center;
+		}
+	}
+}
