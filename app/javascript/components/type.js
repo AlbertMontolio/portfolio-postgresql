@@ -6,8 +6,9 @@ const typeJsBanner = () => {
 	console.log("helloooooooooo");
 	var options = {
 	  strings: ["", 
-	  	"^1000 Web Development is the closest thing to  ^1500 magic ^1500",  
-	  	"I use ^1500 my coding skills to make ^1500 your idea happen ^1500", 
+	  	"^500 Web Development is the closest thing to magic",  
+	  	"Clients have awesome ideas",
+	  	"With my coding skills, you achieve your goals", 
 	  	"" ],
 	  typeSpeed: 30,
 	  smartBackspace: true
@@ -17,10 +18,40 @@ const typeJsBanner = () => {
 }
 
 const showCurriculum = () => {
-	const phrase3 = document.querySelector(".phrase-3");
+	const curriculum = document.querySelector(".curriculum");
+	const albertMontolio = document.querySelector(".albert-montolio");
+	const staticTextWrapper = document.querySelector(".static-text-wrapper");
+	const dynamicTextWrapper = document.querySelector(".dynamic-text-wrapper");
+	const picGoogleSpeaker = document.querySelector(".pic-google-speaker");
+	const webpageWrapper = document.querySelector(".webpage-wrapper");
+	const startPositionWrapper = document.querySelector(".start-position-wrapper");
+
+
+
 	setTimeout(() => {
-		phrase3.classList.remove("hide");
-	}, 16000);
+		dynamicTextWrapper.classList.add("my-hide");
+	}, 10000);
+
+
+	setTimeout(() => {
+		staticTextWrapper.classList.remove("my-hide");
+	}, 10000);
+	setTimeout(() => {
+		albertMontolio.classList.remove("my-hide");
+	}, 10000);
+	setTimeout(() => {
+		curriculum.classList.remove("my-hide");
+	}, 10200);
+	setTimeout(() => {
+		picGoogleSpeaker.classList.remove("my-hide");
+	}, 10400);
+	setTimeout(() => {
+		webpageWrapper.classList.remove("my-hide");
+	}, 10400);
+	setTimeout(() => {
+		startPositionWrapper.classList.remove("my-hide");
+	}, 10600);
+	
 	
 }
 

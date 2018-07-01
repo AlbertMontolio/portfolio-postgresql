@@ -1,49 +1,153 @@
+
+
 .banner {
-	background-color: orange;
 	width: 100vw;
 	height: 100vh;
 	background-size: cover;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	.text-wrapper {
-		color: white;
-		text-align: center;
-		width: 1000px;
-		// height: 400px;
-		.phrase-1 {
-			font-size: 60px;
-			// font-weight: 700;
-		}
-		.phrase-2 {
-			margin-top: 40px;
-			font-size: 40px;
-			font-weight: 400;
-			color: rgb(240,240,240);
-			position: relative;
-			.web-developer-wrapper {
-				position: absolute;
+	background: image-url("home/banner.jpg");
+	position: relative;
+	z-index: 2;
 
-				display: flex;
-				flex-direction: row;
-				
-				width: 100%;
-				
-			}
-		}
-		.phrase-3 {
-			position: relative;
-			font-size: 40px;
-			font-weight: 400;
-			color: rgb(240,240,240);
-		}
+}
+
+.static-text-wrapper {
+	z-index: 4;
+	color: white;
+	text-align: center;
+	width: 1000px;
+	height: 133px;
+	position: relative;
+	.albert-montolio {
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		width: 100%;
+		font-size: 60px;
+		text-align: center;
+	}
+	.curriculum {
+		position: absolute;
+		top: 85px;
+		left: 0px;
+		width: 100%;
+		font-size: 40px;
+		font-weight: 400;
+		text-align: center;
+		color: rgb(240,240,240);
 	}
 }
+
+.dynamic-text-wrapper {
+	z-index: 4;
+	color: white;
+	text-align: center;
+	width: 1000px;
+	height: 46px;
+	position: relative;
+	font-size: 40px;
+	font-weight: 400;
+	color: rgb(240,240,240);
+	.web-developer-wrapper {
+		position: absolute;
+		display: flex;
+		flex-direction: row;
+		width: 100%;
+	}
+
+}
+
+// transition banner layerr
+
+.banner-layer {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100vw;
+	height: 100vh;
+	z-index: 3;
+	animation-duration: 10s;
+	animation-name: change-opacity;
+	background-color: rgba(0,0,0,1);
+	opacity: 0.8;
+}
+
+@keyframes change-opacity {
+	0% {
+		opacity: 1;
+	}
+	80% {
+		opacity: 0.9;
+	}
+
+	100% {
+		opacity: 0.8;
+	}
+}
+
+
 
 .typed-cursor {
 	display: none;
 }
 
-.hide {
-	display: none;
+
+
+.banner {
+	.pic-google-speaker {
+		position: absolute;
+		bottom: 10px;
+		right: 10px;
+		color: white;
+		z-index: 4;
+		width: 80px;
+		height: 80px;
+	}
 }
+
+.banner {
+	.start-position-wrapper {
+		z-index: 5;
+		position: absolute;
+		bottom: 0px;
+		left: 0px;
+		width: 100vw;
+		height: 40px;
+		display: flex;
+		justify-content: center;
+		color: white;
+		.start-wrapper {
+			z-index: 6;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			&:hover {
+				color: rgb(200,200,200);
+				cursor: pointer;
+			}
+		}
+	}
+}
+
+.my-hide {
+	display: none !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

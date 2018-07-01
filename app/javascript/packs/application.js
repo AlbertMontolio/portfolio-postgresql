@@ -10,6 +10,8 @@
 console.log('Hello World from Webpacker')
 
 import { typeJsBanner, showCurriculum } from '../components/type'
+import { startBanner } from '../components/banner'
 
 typeJsBanner();
 showCurriculum();
+startBanner();
