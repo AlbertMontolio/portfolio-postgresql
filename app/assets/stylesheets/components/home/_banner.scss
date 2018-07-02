@@ -1,4 +1,18 @@
+.banner-element-hidden {
+	transition: color 2s;
+	color: transparent;
+	opacity: 0;
+}
+.banner-element-hidden-slow {
+	transition: color 3s;
+	color: transparent;
+	opacity: 0;
+}
 
+.google-pic-opacity-hidden {
+	transition: opacity 3s;
+	opacity: 0;
+}
 
 .banner {
 	width: 100vw;
@@ -26,8 +40,7 @@
 		left: 0px;
 		width: 100%;
 		text-align: center;
-		transition: color 10s;
-		color: transparent;
+		
 		font-size: 60px;
 	}
 
@@ -39,10 +52,21 @@
 		width: 100%;
 		font-weight: 400;
 		text-align: center;
-		color: rgb(240,240,240);
+		
 		font-size: 40px;
+
 	}
 }
+
+.banner-element-white {
+	color: white;
+}
+
+.banner-element-grayish {
+	color: rgb(240,240,240);
+}
+
+
 
 
 
@@ -109,7 +133,6 @@
 		position: absolute;
 		bottom: 10px;
 		right: 10px;
-		color: white;
 		z-index: 4;
 		width: 80px;
 		height: 80px;
@@ -126,7 +149,7 @@
 		height: 40px;
 		display: flex;
 		justify-content: center;
-		color: white;
+		
 		.start-wrapper {
 			z-index: 6;
 			display: flex;
@@ -176,18 +199,7 @@
 	}
 }
 
-@media only screen and (min-width: 600px) {
-	.web-developer-wrapper {
-		
-	}
-  .albert-montolio {
-      
-  }
-  .curriculum {
-  	
-  }
-  
-}
+
 
 
 

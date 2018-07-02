@@ -45,22 +45,28 @@ const showCurriculum = () => {
 	staticTextWrapper.classList.remove("my-hide");
 
 	setTimeout(() => {
-		albertMontolio.classList.remove("my-hide");
+		albertMontolio.classList.add("opacity-1");
+		albertMontolio.classList.add("banner-element-white");
 	}, 500);
 	setTimeout(() => {
-		curriculum.classList.remove("my-hide");
+		curriculum.classList.add("opacity-1");
+		curriculum.classList.add("banner-element-grayish");
 	}, 700);
+
 	setTimeout(() => {
-		picGoogleSpeaker.classList.remove("my-hide");
-	}, 900);
-	
-	setTimeout(() => {
-		startPositionWrapper.classList.remove("my-hide");
+		startPositionWrapper.classList.add("opacity-1");
+		startPositionWrapper.classList.add("banner-element-white");
 	}, 900);
 
 	setTimeout(() => {
+		picGoogleSpeaker.classList.add("opacity-1");
+	}, 1100);
+	
+	
+
+	setTimeout(() => {
 		webpageWrapper.classList.remove("my-hide");
-	}, 900);
+	}, 1100);
 	
 }
 
