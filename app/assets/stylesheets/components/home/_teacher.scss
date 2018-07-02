@@ -8,10 +8,23 @@
 		display: flex;
 		flex-direction: column;
 		align-items: center;
+		.teacher-lewagon-title {
+			text-align: center;
+		}
 		.teacher-description {
 			margin-top: 20px;
 			margin-bottom: 30px;
 			text-align: center;
+		}
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	.teacher-section {
+		padding: 0px;
+		padding-bottom: 40px;
+		.teacher-lewagon-title {
+			margin-top: 40px;
 		}
 	}
 }
@@ -55,6 +68,21 @@
 		.students {
 			margin-left: 15px;
 		}
+	}
+}
+
+.lewagon-curriculum {
+	font-weight: 700;
+	font-size: 20px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+@media onlye screen and (max-width: 600px) {
+	.lewagon-curriculum {
+		font-weight: 700;
+		font-size: 20px;
+		margin: 10px 0px;
 	}
 }
 
