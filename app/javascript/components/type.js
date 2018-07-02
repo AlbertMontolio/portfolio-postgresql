@@ -65,7 +65,7 @@ const showCurriculum = () => {
 	
 
 	setTimeout(() => {
-		webpageWrapper.classList.remove("my-hide");
+		// webpageWrapper.classList.remove("my-hide");
 	}, 1400);
 	
 }
