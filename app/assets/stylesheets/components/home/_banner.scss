@@ -26,7 +26,8 @@
 		left: 0px;
 		width: 100%;
 		text-align: center;
-		color: white;
+		transition: color 10s;
+		color: transparent;
 		font-size: 60px;
 	}
 
@@ -42,6 +43,8 @@
 		font-size: 40px;
 	}
 }
+
+
 
 .dynamic-text-wrapper {
 	z-index: 4;

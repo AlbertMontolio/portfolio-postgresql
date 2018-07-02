@@ -22,7 +22,7 @@ const typeJsBanner = () => {
 	  	"Clients have awesome ideas to improve our world",
 	  	"With my coding skills, I make your project happen", 
 	  	"" ],
-	  typeSpeed: 30,
+	  typeSpeed: deviceTypeSpeed,
 	  smartBackspace: true,
 	  onComplete: (self) => {
 	  	showCurriculum();
