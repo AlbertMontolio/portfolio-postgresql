@@ -60,7 +60,7 @@ const showCurriculum = () => {
 
 	setTimeout(() => {
 		picGoogleSpeaker.classList.add("opacity-1");
-	}, 1100);
+	}, 1400);
 	
 	
 
