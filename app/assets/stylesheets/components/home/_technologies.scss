@@ -5,8 +5,11 @@
 	justify-content: center;
 	align-items: center;
 	margin-bottom: 60px;
+	z-index: 1;
+	position: relative;
 	.technologies-content {
 		max-width: 900px;
+		z-index: 3;
 	}
 
 	.experience {
