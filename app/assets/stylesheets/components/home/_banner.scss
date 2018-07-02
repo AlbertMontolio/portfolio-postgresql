@@ -27,6 +27,7 @@
 		width: 100%;
 		text-align: center;
 		color: white;
+		font-size: 60px;
 	}
 
 	
@@ -38,6 +39,7 @@
 		font-weight: 400;
 		text-align: center;
 		color: rgb(240,240,240);
+		font-size: 40px;
 	}
 }
 
@@ -57,6 +59,8 @@
 		display: flex;
 		flex-direction: row;
 		width: 100%;
+		font-size: 40px;
+		line-height: 1.5;
 	}
 
 }
@@ -142,41 +146,44 @@
 
 
 @media only screen and (max-width: 600px) {
-	.web-developer-wrapper {
-		font-size: 25px;
-		line-height: 1.5;
-		padding: 0px 15px;
+	.dynamic-text-wrapper {
+		.web-developer-wrapper {
+			font-size: 25px;
+			line-height: 1.5;
+			padding: 0px 15px;
+		}
 	}
-  .albert-montolio {
-      font-size: 40px;
-  }
-  .curriculum {
-  	font-size: 25px;
-  	padding: 20px;
-  	line-height: 1.4;
-  }
+	.static-text-wrapper {
+	  .albert-montolio {
+	      font-size: 40px;
+	  }
+	  .curriculum {
+	  	font-size: 25px;
+	  	padding: 15px;
+	  	line-height: 1.4;
+	  }
+	}
   .banner {
   	height: calc(100vh - 80px);
 		
 		.pic-google-speaker {
 			top: 10px;
 			height: 10px;
-			width: 50px;
-			height: 50px;
+			width: 60px;
+			height: 60px;
 		}
 	}
 }
 
 @media only screen and (min-width: 600px) {
 	.web-developer-wrapper {
-		font-size: 40px;
-		line-height: 1.5;
+		
 	}
   .albert-montolio {
-      font-size: 60px;
+      
   }
   .curriculum {
-  	font-size: 40px;
+  	
   }
   
 }
