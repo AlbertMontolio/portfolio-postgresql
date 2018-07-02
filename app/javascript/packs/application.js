@@ -11,6 +11,8 @@ console.log('Hello World from Webpacker')
 
 import { typeJsBanner, showCurriculum } from '../components/type'
 import { startBanner } from '../components/banner'
+import { successParalax } from '../components/successParalax'
 
 typeJsBanner();
 startBanner();
+successParalax();

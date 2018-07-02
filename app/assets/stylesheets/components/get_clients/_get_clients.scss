@@ -1,0 +1,27 @@
+.get-clients-section {
+	// margin-top: 100px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	
+	.image-success-wrapper {
+		// height: 55px;
+		width: 100vw;
+		font-size: cover;
+	}
+
+	.parallax { 
+    /* The image used */
+    // background-image: url("img_parallax.jpg");
+
+    /* Set a specific height */
+    height: 300px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	}
+}
