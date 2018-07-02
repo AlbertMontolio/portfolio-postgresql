@@ -157,12 +157,13 @@
   }
   .banner {
   	height: calc(100vh - 80px);
-		// .start-position-wrapper {
-		// 	bottom: 80px;
-		// }
-		// .pic-google-speaker {
-		// 	bottom: 80px;
-		// }
+		
+		.pic-google-speaker {
+			top: 10px;
+			height: 10px;
+			width: 50px;
+			height: 50px;
+		}
 	}
 }
 
