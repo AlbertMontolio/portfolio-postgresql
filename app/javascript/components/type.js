@@ -7,8 +7,8 @@ const typeJsBanner = () => {
 	var options = {
 	  strings: ["", 
 	  	"^500 Web Development is the closest thing to magic",  
-	  	"Clients have awesome ideas",
-	  	"With my coding skills, you achieve your goals", 
+	  	"Clients have awesome ideas to improve our world",
+	  	"With my coding skills, I make your project happen", 
 	  	"" ],
 	  typeSpeed: 30,
 	  smartBackspace: true
@@ -26,30 +26,28 @@ const showCurriculum = () => {
 	const webpageWrapper = document.querySelector(".webpage-wrapper");
 	const startPositionWrapper = document.querySelector(".start-position-wrapper");
 
+
 	setTimeout(() => {
 		dynamicTextWrapper.classList.add("my-hide");
-	}, 10000);
-
-
+	}, 11000);
 	setTimeout(() => {
 		staticTextWrapper.classList.remove("my-hide");
-	}, 10000);
+	}, 11000);
 	setTimeout(() => {
 		albertMontolio.classList.remove("my-hide");
-	}, 10000);
+	}, 11500);
 	setTimeout(() => {
 		curriculum.classList.remove("my-hide");
-	}, 10200);
+	}, 11700);
 	setTimeout(() => {
 		picGoogleSpeaker.classList.remove("my-hide");
-	}, 10400);
+	}, 11900);
 	setTimeout(() => {
 		webpageWrapper.classList.remove("my-hide");
-	}, 10400);
+	}, 11900);
 	setTimeout(() => {
 		startPositionWrapper.classList.remove("my-hide");
-	}, 10600);
-	
+	}, 11900);
 	
 }
 
