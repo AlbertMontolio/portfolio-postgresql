@@ -156,12 +156,13 @@
   	line-height: 1.4;
   }
   .banner {
-		.start-position-wrapper {
-			bottom: 80px;
-		}
-		.pic-google-speaker {
-			bottom: 80px;
-		}
+  	height: calc(100vh - 80px);
+		// .start-position-wrapper {
+		// 	bottom: 80px;
+		// }
+		// .pic-google-speaker {
+		// 	bottom: 80px;
+		// }
 	}
 }
 
