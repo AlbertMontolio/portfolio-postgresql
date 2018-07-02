@@ -1,9 +1,111 @@
-.mobile2-wrapper {
+.mobile-wrapper {
 	display: flex;
-	justify-content;
+	flex-direction: column;
+	justify-content: center;
 	align-items: center;
+	color: black;
 	.mobile-sector {
 		max-width: 900px;
 		width: 100vw;
 	}
 }
+
+.iphones {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	position: relative;
+
+	.iphone-column {
+		width: 40%;
+		.iphone-pic {
+			width: 100%;
+		}
+	}
+
+	.column-center {
+		z-index: 4;
+	}
+
+	.column-left {
+		margin-right: -10%;
+	}
+
+	.column-right {
+		margin-left: -10%;
+	}
+
+	.column-right, .column-left {
+		margin-top: 10%;
+	}
+
+	.grayish-layer-wrapper {
+		position: absolute;
+		left: calc(50% - 50vw);
+		bottom: 0px;
+		height: 25%;
+		background-color: #373A36;
+		color: white;
+		width: 100vw;
+	}
+
+}
+
+.explanation-wrapper {
+	background-color: #373A36;
+	color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100vw;
+	.title {
+		padding-top: 10px;
+		text-align: center;
+	}
+	.description {
+		max-width: 900px;
+		margin-top: 20px;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	.explanation-wrapper {
+		.description {
+			padding: 15px;
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
