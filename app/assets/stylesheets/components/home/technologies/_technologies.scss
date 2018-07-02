@@ -12,6 +12,21 @@
 		z-index: 3;
 	}
 
+	.profile-wrapper {
+		display: flex;
+		align-items: center;
+		margin-top: 80px;
+		.pic-profile {
+			border-radius: 50%;
+
+			width: 200px;
+			height: 200px;
+		}
+		.description-wrapper {
+			margin-left: 60px;
+		}
+	}
+
 	.experience {
 		margin-top: 20px;
 	}
@@ -19,13 +34,13 @@
 	.technologies-wrapper {
 		display: flex;
 		flex-direction: row;
-		margin-top: 40px;
+		margin-top: 140px;
 		
 	}
 }
 
 .toolkit {
-	margin-top: 20px;
+	margin-top: 80px;
 
 	background-color: #373A36;
 	color: white;
@@ -48,8 +63,25 @@
 @media only screen and (max-width: 600px) {
 	.technologies-section {
 		margin-bottom: 0px;
+
+		.profile-wrapper {
+			flex-direction: column;
+			margin-top: 40px;
+			.description-wrapper {
+				margin-left: 0px;
+				margin-top: 10px;
+				.full-stack, .experience {
+					text-align: center;
+				}
+
+			}
+		}
+
+
 		.technologies-wrapper {
 			flex-direction: column;
+			margin-top: 60px;
+
 		}
 	}
 	.full-stack {
