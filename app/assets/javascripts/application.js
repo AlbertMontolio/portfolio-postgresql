@@ -18,4 +18,6 @@
 //= require popper
 //= require bootstrap-sprockets
 
+//= require particles.min
+
 //= require_tree .

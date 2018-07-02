@@ -4,6 +4,7 @@
   "dependencies": {
     "@rails/webpacker": "3.5",
     "aos": "^2.3.2",
+    "particles.js": "^2.0.0",
     "typed.js": "^2.0.8"
   },
   "devDependencies": {
