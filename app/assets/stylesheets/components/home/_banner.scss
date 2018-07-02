@@ -155,22 +155,28 @@
   	padding: 20px;
   	line-height: 1.4;
   }
+  .banner {
+		.start-position-wrapper {
+			bottom: 50px;
+		}
+		.pic-google-speaker {
+			bottom: 50px;
+		}
+	}
 }
 
 @media only screen and (min-width: 600px) {
 	.web-developer-wrapper {
 		font-size: 40px;
 		line-height: 1.5;
-		padding: 0px 15px;
-		padding-bottom: 50px;
 	}
   .albert-montolio {
       font-size: 60px;
   }
   .curriculum {
-
   	font-size: 40px;
   }
+  
 }
 
 
