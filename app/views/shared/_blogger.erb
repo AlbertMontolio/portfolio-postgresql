@@ -12,107 +12,42 @@
 		<div class="blogs container">
 
 			<div class="row">
-				<div class="col-xs-12 col-sm-6 col-md-4">
+
+				<% @blogs.each do |blog| %>
 					
-					<div class="blog">
-						<img src="<%= image_path("200_bootcamp.jpg") %> " alt="" class="pic-blog">
-						<div class="description">
-							<div class="title">
-								What happens if you give 200% in a coding bootcamp
-							</div>
+					<div class="col-xs-12 col-sm-6 col-md-4">
+						
+						<div class="blog">
+							<img src="<%= image_path(blog[:pic]) %> " alt="" class="pic-blog">
+							<div class="description">
+								<div class="title">
+									<%= blog[:title] %>
+								</div>
 
-							<div class="bottom">
+								<div class="bottom">
+									
 								
-							
-								<div class="views">
-									+ 1000 views
-								</div>
-								<div class="descr-footer">
-									<div class="date">
-										Jun 29
+									<div class="views">
+										<%= blog[:views] %>
 									</div>
-									<i class="fas fa-star"></i>
-									<div class="time">
-										22 min read
+									<div class="descr-footer">
+										<div class="date">
+											<%= blog[:date] %>
+										</div>
+										<i class="fas fa-star"></i>
+										<div class="time">
+											<%= blog[:time] %>
+										</div>
 									</div>
 								</div>
-							</div>
 
+							</div>
 						</div>
+
 					</div>
+				<% end %>
 
-
-
-				</div>
-				<div class="col-xs-12 col-sm-6 col-md-4">
-					
-
-					<div class="blog">
-						<img src="<%= image_path("200_bootcamp.jpg") %> " alt="" class="pic-blog">
-						<div class="description">
-							<div class="title">
-								Rails 5 + JavaScript + Webpack: the ultimate guide
-							</div>
-
-							<div class="bottom">
-								
-							
-								<div class="views">
-									+ 400 views
-								</div>
-								<div class="descr-footer">
-									<div class="date">
-										Apr 15
-									</div>
-									<i class="fas fa-star"></i>
-									<div class="time">
-										18 min read
-									</div>
-								</div>
-							</div>
-
-
-						</div>
-					</div>
-
-
-				</div>
-				<div class="col-xs-12 col-sm-6 col-md-4">
-					
-
-					<div class="blog">
-						<img src="<%= image_path("200_bootcamp.jpg") %> " alt="" class="pic-blog">
-						<div class="description">
-							<div class="title">
-								Build your own Chatbot with Google Dialog Flow
-							</div>
-
-							<div class="bottom">
-								
-							
-								<div class="views">
-									+ 2000 views
-								</div>
-								<div class="descr-footer">
-									<div class="date">
-										Mai 27
-									</div>
-									<i class="fas fa-star"></i>
-									<div class="time">
-										32 min read
-									</div>
-								</div>
-
-							</div>
-
-						</div>
-					</div>
-
-
-				</div>
 			</div>
-
-			
 
 		</div>
 

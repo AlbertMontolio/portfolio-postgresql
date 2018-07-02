@@ -1,5 +1,5 @@
 .blogger-section {
-	padding: 160px;
+	padding: 160px 0px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -98,6 +98,19 @@
 		.text {
 			color: white;
 		}
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	.blogger-section {
+		padding-top: 30px;
+		padding-bottom: 50px;
+	}
+	.blogs {
+		margin-top: 30px;
+	}
+	.blogger-title {
+		padding: 20px;
 	}
 }
 
