@@ -1,0 +1,16 @@
+.projects-wrapper {
+	display: flex;
+	justify-content: center;
+	.projects-section {
+		max-width: 1000px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+}
+
+.projects {
+	display: flex;
+	justify-content: center;
+	max-width: 900px;
+}
