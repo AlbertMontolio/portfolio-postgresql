@@ -17,18 +17,25 @@
 		display: flex;
 		flex-direction: column;
 		margin-top: 40px;
-
 		
 	}
 }
 
 .toolkit {
-	background-color: rgb(245,245,245);
-	border-top: 1px solid rgb(235,235,235);
-	border-bottom: 1px solid rgb(235,235,235);
+	margin-top: 20px;
+
+	background-color: #373A36;
+	color: white;
 	text-align: center;
 	padding: 20px 0px;
 	font-weight: 400px;
+	font-size: 18px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	.text {
+		margin: 0px 20px;
+	}
 }
 
 .technologies-horizontal-wrapper {
@@ -52,10 +59,12 @@
 			width: 80px;
 			height: 80px;
 		}
-		.description-wrapper {
+		.logo-title-wrapper {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
 			.title {
 				text-align: center;
-				// background-color: orange;
 				margin: 12px 0px 6px 0px;
 			}
 			.text {
@@ -76,10 +85,30 @@
 	.full-stack, .experience {
 		padding: 0px 15px;
 	}
-	
+
+	.technologies-horizontal-wrapper {
+
+		.technology-wrapper {
+			margin-bottom: 30px;
+			.logo-title-wrapper {
+				display: flex;
+				flex-direction: row;
+				align-items: center;
+				justify-content: flex-start;
+				width: 100%;
+				margin-bottom: 10px;
+				.title {
+					margin-left: 20px;
+				}
+			}
+		}
+
+	}
+	.toolkit {
+		margin-top: 0px;
+	}
+
 }
-
-
 
 
 
