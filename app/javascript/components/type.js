@@ -11,7 +11,10 @@ const typeJsBanner = () => {
 	  	"With my coding skills, I make your project happen", 
 	  	"" ],
 	  typeSpeed: 30,
-	  smartBackspace: true
+	  smartBackspace: true,
+	  onComplete: (self) => {
+	  	showCurriculum();
+	  }
 	}
 
 	var typed = new Typed(".dynamic-text", options);
@@ -26,29 +29,27 @@ const showCurriculum = () => {
 	const webpageWrapper = document.querySelector(".webpage-wrapper");
 	const startPositionWrapper = document.querySelector(".start-position-wrapper");
 
+	dynamicTextWrapper.classList.add("my-hide");
+	staticTextWrapper.classList.remove("my-hide");
 
 	setTimeout(() => {
-		dynamicTextWrapper.classList.add("my-hide");
-	}, 11000);
-	setTimeout(() => {
-		staticTextWrapper.classList.remove("my-hide");
-	}, 11000);
-	setTimeout(() => {
 		albertMontolio.classList.remove("my-hide");
-	}, 11500);
+	}, 500);
 	setTimeout(() => {
 		curriculum.classList.remove("my-hide");
-	}, 11700);
+	}, 700);
 	setTimeout(() => {
 		picGoogleSpeaker.classList.remove("my-hide");
-	}, 11900);
-	setTimeout(() => {
-		webpageWrapper.classList.remove("my-hide");
-	}, 11900);
+	}, 900);
+	
 	setTimeout(() => {
 		startPositionWrapper.classList.remove("my-hide");
-	}, 11900);
+	}, 900);
+
+	setTimeout(() => {
+		webpageWrapper.classList.remove("my-hide");
+	}, 900);
 	
 }
 
-export { typeJsBanner, showCurriculum };
+export { typeJsBanner };
