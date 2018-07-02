@@ -1,21 +1,38 @@
 <div class="mobile-section">
 	<div class="mobile-content">
 		
-		
-		<div class="image-mbl">
-			<img src="<%= image_path("iphones-black.png") %> " class="pic-iphones" alt="">
+		<div class="iphones">
+			<div class="iphone-center-wrapper">
 
+				<div class="iphone-center">
+					<%= image_tag("iphone-center.png", class: "iphone-pic") %>
+				</div>
+				
+				<div class="iphone" data-aos="fade-up-right">
+					<%= image_tag("iphone-left.png", class: "iphone-left iphone-pic") %>
+				</div>
+			
+				<div class="iphone" data-aos="fade-up-left">
+					<%= image_tag("iphone-right.png", class: "iphone-right iphone-pic") %>
+				</div>
 
+			</div>
 
-		</div>
-
-		
-		<div class="explanation-background">
+			
 			
 		</div>
 
+		<div class="gray-iphone-overlay-wrapper">
+
+			<div class="gray-iphone-overlay">
+				
+			</div>
+
+		</div>
+
+
 		<div class="explanation-wrapper">
-			<h2>
+			<h2 class="title">
 				Everything I build is mobile responsive
 			</h2>
 			<p class="description">

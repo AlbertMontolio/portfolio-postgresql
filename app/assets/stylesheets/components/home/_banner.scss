@@ -1,16 +1,16 @@
 .banner-element-hidden {
-	transition: color 2s;
+	transition: color 3s;
 	color: transparent;
 	opacity: 0;
 }
 .banner-element-hidden-slow {
-	transition: color 3s;
+	transition: color 4s;
 	color: transparent;
 	opacity: 0;
 }
 
 .google-pic-opacity-hidden {
-	transition: opacity 3s;
+	transition: opacity 4s;
 	opacity: 0;
 }
 
