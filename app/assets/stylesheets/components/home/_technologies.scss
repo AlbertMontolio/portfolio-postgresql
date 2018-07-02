@@ -18,27 +18,7 @@
 		flex-direction: column;
 		margin-top: 40px;
 
-		.technology-wrapper {
-			display: flex;
-			// background-color: blue;
-			margin-bottom: 40px;
-			.logo {
-				// background-color: orange;
-				display: flex;
-				align-items: center;
-				.pic-rails {
-					width: 100px;
-					height: 100px;
-				}
-			}
-			.description-wrapper {
-				// background-color: pink;
-				padding: 0px 40px;
-				.text {
-					margin-top: 10px;
-				}
-			}
-		}
+		
 	}
 }
 
