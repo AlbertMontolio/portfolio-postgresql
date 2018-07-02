@@ -1,0 +1,53 @@
+
+
+
+
+
+<div class="container technologies-horizontal-wrapper">
+
+
+	<div class="row">
+		<% @toolkit1.each do |tool| %>
+			<div class="col-6 col-sm-6 col-md-3">
+				<div class="technology-wrapper">
+
+					<div class="logo-title-wrapper">
+						
+						<div class="logo logo-rspec">
+							<img src="<%= image_path(tool[:pic]) %>" class="pic-rails" alt="">
+						</div>
+						
+						<h5 class="title">
+							<%= tool[:name] %>
+						</h5>
+					</div>
+
+				</div>
+			</div>
+		<% end %>
+
+	</div>
+
+	<div class="row">
+		<% @toolkit2.each do |tool| %>
+			<div class="col-6 col-sm-6 col-md-3">
+				<div class="technology-wrapper">
+
+					<div class="logo-title-wrapper">
+						
+						<div class="logo logo-rspec">
+							<img src="<%= image_path(tool[:pic]) %>" class="pic-rails" alt="">
+						</div>
+						
+						<h5 class="title">
+							<%= tool[:name] %>
+						</h5>
+					</div>
+
+				</div>
+			</div>
+		<% end %>
+
+	</div>
+
+</div>
