@@ -21,10 +21,19 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background: image-url("home/banner.jpg");
+	
 	position: relative;
 	z-index: 2;
-
+	.banner-background {
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		height: 100vh;
+		width: 100vw;
+		z-index: 1;
+		background: image-url("home/banner.jpg");
+		background-size: cover;
+	}
 }
 
 .static-text-wrapper {
@@ -111,7 +120,7 @@
 	0% {
 		opacity: 1;
 	}
-	80% {
+	70% {
 		opacity: 0.9;
 	}
 
