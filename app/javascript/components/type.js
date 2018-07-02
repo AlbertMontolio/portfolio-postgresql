@@ -1,8 +1,20 @@
 import Typed from 'typed.js';
 // "Clients have ^1500 awesome ideas in their minds",
 
+function isMobileDevice() {
+  return (typeof window.orientation !== "undefined") || (navigator.userAgent.indexOf('IEMobile') !== -1);
+};
+
 // function loadDynamicBannerText = () => {
 const typeJsBanner = () => {
+
+	let deviceTypeSpeed = 0;
+	if (isMobileDevice()) {
+		deviceTypeSpeed = 10;
+	} else {
+		deviceTypeSpeed = 30;
+	}
+
 	console.log("helloooooooooo");
 	var options = {
 	  strings: ["", 
