@@ -9,8 +9,5 @@ const scrollDown = (event) => {
 	technologiesSection.scrollIntoView({ behavior: "smooth"} );
 }
 
-const skipIntro = () => {
-	
-}
 
 export { startBanner };

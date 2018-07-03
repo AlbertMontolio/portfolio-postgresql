@@ -11,6 +11,7 @@ console.log('Hello World from Webpacker')
 
 import { typeJsBanner, showCurriculum } from '../components/type'
 import { startBanner } from '../components/banner'
+import { skipIntro } from '../components/skipIntroBtn'
 import { successParalax } from '../components/successParalax'
 import { successPic } from '../components/successPic'
 
@@ -18,3 +19,4 @@ typeJsBanner();
 startBanner();
 successParalax();
 successPic();
+skipIntro();
