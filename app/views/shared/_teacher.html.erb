@@ -2,82 +2,57 @@
 	<div class="teacher-content">
 		<h2 class="teacher-lewagon-title">Coding teacher at an international bootcamp</h2>
 
-		<p class="teacher-description">I learnt Web Development at Le Wagon. I taught in Barcelona and Bali so far. As a teacher, you are responsible of giving the lesson, solving issues and leading the final projects.</p>
+		<p class="teacher-description">I learnt Web Development at Le Wagon. I taught in Barcelona and Bali so far. As a teacher, you are responsible for giving the lesson, solving issues and leading the final projects.</p>
 
 
 		<div class="container">
 			<div class="row">
 
-				<div class="col-xs-12 col-sm-6">
+				<% @teachers.each do |teacher| %>
+					
+					<div class="col-xs-12 col-sm-6">
 
 
-					<div class="city-wrapper">
-						<div class="city-picture">
-							<img src="<%= image_path("barcelona.png") %>" alt="">
-							<div class="title-wrapper">
-	
+						<div class="city-wrapper">
+
+
+							<div class="band-wrapper">
+								teacher
+							</div>
+
+							<div class="city-picture">
+								<img src="<%= image_path(teacher[:pic]) %>" alt="">
 								<div class="title-wrapper">
-									<div class="title">
-										Le Wagon
-										<span class="highlighted-wrapper">
-											Barcelona
-											<span class="highlighted high-green"></span>
-										</span>
+		
+									<div class="title-wrapper">
+										<div class="title">
+											<%= teacher[:title] %>
+											<span class="highlighted-wrapper">
+												<%= teacher[:city] %>
+												<span class="highlighted high-green"></span>
+											</span>
+										</div>
 									</div>
+
 								</div>
-
+								
 							</div>
-							
+
+							<div class="city-info-wrapper">
+								<div class="lessons">
+									Lessons: <%= teacher[:lessons] %>
+								</div>
+								<div class="students">
+									Students: <%= teacher[:students] %>
+								</div>
+								
+							</div>
+
 						</div>
-
-						<div class="city-info-wrapper">
-							<div class="lessons">
-								Lessons: 80
-							</div>
-							<div class="students">
-								Students: 120
-							</div>
-							
-						</div>
-
 					</div>
-				</div>
+				<% end %>
 
-
-				<div class="col-xs-12 col-sm-6">
-
-
-					<div class="city-wrapper">
-						<div class="city-picture">
-							<img src="<%= image_path("bali.png") %>" alt="">
-							<div class="title-wrapper">
 				
-								<div class="title-wrapper">
-									<div class="title">
-										Le Wagon
-										<span class="highlighted-wrapper">
-											Bali
-											<span class="highlighted high-green"></span>
-										</span>
-									</div>
-								</div>
-
-							</div>
-							
-						</div>
-
-						<div class="city-info-wrapper">
-							<div class="lessons">
-								Lessons: 48
-							</div>
-							<div class="students">
-								Students: 33
-							</div>
-							
-						</div>
-
-					</div>
-				</div>
 				
 			</div>
 		</div>

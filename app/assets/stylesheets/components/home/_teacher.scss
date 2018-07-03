@@ -34,6 +34,22 @@
 	flex-direction: column;
 	align-items: center;
 	margin-bottom: 20px;
+	position: relative;
+	overflow: hidden;
+	.band-wrapper {
+		position: absolute;
+		top: 20px;
+		left: -50px;
+		z-index: 10;
+		background-color: #D23333;
+		color: white;
+		transform: rotate(-45deg);
+		padding: 2px 50px;
+		
+		font-weight: 400;
+		text-align: center;
+	}
+
 	.city-picture {
 		position: relative;
 		width: 100%;

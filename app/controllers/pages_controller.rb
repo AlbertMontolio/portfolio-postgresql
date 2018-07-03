@@ -38,6 +38,26 @@ class PagesController < ApplicationController
 			}
 		]
 		blogs
+		teachers
+	end
+
+	def teachers
+		@teachers = [
+			{
+				pic: "barcelona.png",
+				title: "Le Wagon",
+				city: "Barcelona",
+				lessons: 80,
+				students: 120
+			},
+			{
+				pic: "bali.png",
+				title: "Le Wagon",
+				city: "Bali",
+				lessons: 48,
+				students: 33
+			},
+		]
 	end
 
 	def blogs
