@@ -6,6 +6,12 @@
 	margin-bottom: 40px;
 	background-color: rgb(250,250,250);
 	overflow: hidden;
+	border: 1px solid rgb(247,247,247);
+	box-shadow: 0 0 6px 0 rgba(30,45,62,.09);
+
+	a {
+		color: black;
+	}
 	.topbar {
 		height: 25px;
 		width: 100%;
@@ -148,13 +154,24 @@
 
 	.description-card {
 		background-color: #f5f7f9;
-		background-color: rgb(250,250,250);
+		background-color: rgb(245,245,245);
 		width: 360px;
 		font-size: 14px;
-		padding: 8px 15px;
+		padding: 0px 10px;
+		height: 120px;
+		position: relative;
+		width: 100%;
 		.title {
+			padding-top: 20px;
 			font-weight: bold;
 			overflow: hidden;
+		}
+		.description {
+			position: absolute;
+			bottom: 0px;
+			left: 0px;
+			width: 100%;
+			padding: 10px;
 		}
 	}
 

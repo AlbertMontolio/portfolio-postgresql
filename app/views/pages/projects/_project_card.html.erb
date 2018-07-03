@@ -1,0 +1,50 @@
+<div class="project-card" data-aos="zoom-in">
+	
+	<div class="topbar">
+		<div class="small-btns">
+			<div class="circle-1 circle"></div>
+			<div class="circle-2 circle"></div>
+			<div class="circle-3 circle"></div>
+		</div>
+	</div>
+
+
+	<a href="" target="_blank">
+		<div class="card-img-wrapper">
+			<div class="opac-back">
+				
+			</div>
+			<img src="<%= image_path(project[:pic]) %>" alt="" class="card-img">
+			<div class="tags-more-wrapper">
+				<div class="tags">
+					<% project[:tags].each do |tag| %>
+						<div class="tag">
+							<%= tag %>
+						</div>
+					<% end %>
+					
+				</div>
+				<div class="more-wrapper">
+					
+						<div class="more">
+							more
+						</div>
+					
+					
+				</div>
+			</div>
+		</div>
+	</a>
+
+	<div class="description-card">
+		<div class="title">
+			<%= project[:name] %>
+		</div>
+		<div class="description">
+			<%= project[:description] %>
+		</div>
+	</div>
+	
+</div>
+
+

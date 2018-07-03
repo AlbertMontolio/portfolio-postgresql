@@ -39,6 +39,40 @@ class PagesController < ApplicationController
 		]
 		blogs
 		teachers
+		projects
+	end
+
+	def projects
+		@projects = [
+			{
+				pic: "projects/codium.png",
+				tags: ["Rails", "ES6", "TDD"],
+				name: "Codium. Create your cheetsheets",
+				description: "Open source tool, learning to code is difficult. With Codium you can organize your coding notes.",
+				url: "http://www.codium.fun/"
+			},
+			{
+				pic: "projects/waybook.png",
+				tags: ["Rails", "ES6", "API"],
+				name: "Skills Book. Connect the employees of your company",
+				description: "With Skills Book you find all the skills of your employees. Efficient assignment for the projects",
+				url: "https://way-book.herokuapp.com/"
+			},
+			{
+				pic: "projects/schulungssystem.png",
+				tags: ["Rails", "ES6", "Cloudinary"],
+				name: "W.H.A.T. All your training files in your hand",
+				description: "Platform to host, organize and share all the training documents. Couches use them on the go",
+				url: "https://schulungssystem.waygroup.de/"
+			},
+			{
+				pic: "projects/zeiterfassung.png",
+				tags: ["Rails", "AJAX", "jQuery"],
+				name: "Timesheet. Analyse your working hours",
+				description: "Employees can enter their working hours, analyse hours per project. Managers can have a day-to-day overview",
+				url: "https://way-zeiterfassung.herokuapp.com/"
+			}
+		]
 	end
 
 	def teachers

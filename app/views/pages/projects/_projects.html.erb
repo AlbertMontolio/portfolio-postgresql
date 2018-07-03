@@ -7,26 +7,13 @@
 		<div class="projects">
 			<div class="container">
 				<div class="row">
-					<div class="col-xs-12 col-sm-6">
-						
-						<%= render "pages/projects/project_card_codium" %>
 
-					</div>
-					<div class="col-xs-12 col-sm-6">
-						
-						<%= render "pages/projects/project_card_skills_book" %>
-
-					</div>
-					<div class="col-xs-12 col-sm-6">
-						
-						<%= render "pages/projects/project_card_schulungssystem" %>
-
-					</div>
-					<div class="col-xs-12 col-sm-6">
-						
-						<%= render "pages/projects/project_card_zeiterfassung" %>
-
-					</div>
+					<% @projects.each do |project| %>
+						<div class="col-xs-12 col-sm-6">
+							<%= render "pages/projects/project_card", project: project %>
+						</div>
+					<% end %>
+					
 				</div>
 			</div>
 			
