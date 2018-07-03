@@ -1,9 +1,8 @@
 import Typed from 'typed.js';
 // "Clients have ^1500 awesome ideas in their minds",
+import { isMobileDevice } from '../functions'
 
-function isMobileDevice() {
-  return (typeof window.orientation !== "undefined") || (navigator.userAgent.indexOf('IEMobile') !== -1);
-};
+
 
 // function loadDynamicBannerText = () => {
 const typeJsBanner = () => {
