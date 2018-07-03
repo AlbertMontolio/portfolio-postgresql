@@ -41,6 +41,11 @@
 	.pic-blog {
 		width: 90px;
 		height: 90px;
+		flex-shrink: 0;
+		img {
+			width: 90px;
+			height: 90px;
+		}
 	}
 	.description {
 		position: relative;

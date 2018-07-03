@@ -63,21 +63,21 @@ class PagesController < ApplicationController
 	def blogs
 		@blogs = [
 			{
-				pic: "200_bootcamp.jpg",
+				pic: "what_happens.png",
 				title: "What happens if you give 200% in a coding bootcamp",
 				views: "+1000",
 				date: "Jun 29",
 				time: "22 min read"
 			},
 			{
-				pic: "200_bootcamp.jpg",
+				pic: "js_webpack",
 				title: "Rails 5 + JavaScript + Webpack: the ultimate guide",
 				views: "+400",
 				date: "Apr 15",
 				time: "18 min read"
 			},
 			{
-				pic: "200_bootcamp.jpg",
+				pic: "chatbot.png",
 				title: "Build your own Chatbot with Google Dialog Flow",
 				views: "+2000",
 				date: "Mai 27",
