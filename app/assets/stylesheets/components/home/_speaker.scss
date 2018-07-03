@@ -20,19 +20,6 @@
 		}
 	}
 
-// ### make this responsive
-	.speaker-gallery {
-		display: flex;
-		justify-content: center;
-		width: 100%;
-		overflow: auto;
-	}
-	.pic-speaker {
-		height: 250px;
-	}
-	.public-speaker {
-		margin-left: 20px;
-	}
 	.workshop-description-wrapper {
 		padding: 0px 10px;
 	}
@@ -42,4 +29,24 @@
 		max-width: 1000px;
 		padding: 0px 15px;
 	}
+}
+
+.speaker-gallery-wrapper {
+	max-width: 1200px;
+	width: 100vw;
+	height: 250px;
+	display: flex;
+	justify-content: center;
+	.speaker-gallery {
+		display: flex;
+		justify-content: flex-center;
+		overflow: auto;
+	}
+	.pic-speaker {
+		height: 250px;
+	}
+	.public-speaker {
+		margin-left: 20px;
+	}
+
 }
