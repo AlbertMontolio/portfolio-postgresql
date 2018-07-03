@@ -70,7 +70,7 @@ class PagesController < ApplicationController
 				time: "22 min read"
 			},
 			{
-				pic: "js_webpack",
+				pic: "js_webpack.png",
 				title: "Rails 5 + JavaScript + Webpack: the ultimate guide",
 				views: "+400",
 				date: "Apr 15",
